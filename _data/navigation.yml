@@ -1,0 +1,21 @@
+# Site navigation links
+
+- title: Home
+  url: /
+  excerpt:
+  image:
+
+- title: Members
+  url: /member-directory
+  excerpt:
+  image:
+
+- title: Texts in Translation
+  url: /translations
+  excerpt:
+  image:
+
+- title: News + CFPs
+  url: /news
+  excerpt:
+  image:

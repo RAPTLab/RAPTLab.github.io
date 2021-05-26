@@ -1,0 +1,26 @@
+# List of members
+
+- last: Danish
+  first: Joshua
+  role: Leader
+  status: Current
+  url: https://www.joshuadanish.com
+  affiliation: Indiana University Bloomington
+
+- last: Saleh
+  first: Asmalina
+  role: Research Scientist
+  status: Current
+  affiliation: Indiana University Bloomington
+
+- last: Humburg
+  first: Megan
+  role: Graduate Researcher
+  status: Current
+  affiliation: Indiana University Bloomington
+
+- last: Georgen
+  first: Chris
+  role: Graduate Researcher
+  status: Former
+  affiliation: Postdoc, Boston University
