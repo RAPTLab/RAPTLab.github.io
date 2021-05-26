@@ -5,12 +5,15 @@ permalink: /publications/
 
 ## RAPT Lab Publications
 
-{% assign items_grouped = site.data.publications | group_by: 'project' %}
-{% for group in items_grouped | sort: 'date' | reverse %}
-<h3>{{group.name}}</h3>
+{% assign projects = site.data.publications | group_by: 'project' %}
+{% assign projectsSorted = projects | sort: "name" %}
+{% for y in projectsSorted %}
+<h3>{{ y.project }}</h3>
 <ul>
-{% for item in group.items %}
-<li>{{item.citation}}</li>
-{% endfor %}
+  {% assign yearTitlesSorted = y.items | sort: 'date' | reverse %}
+  {% for t in yearTitlesSorted %}
+  <li>{{ t.citation }}</li>
+  {% endfor %}
 </ul>
+</li>
 {% endfor %}
