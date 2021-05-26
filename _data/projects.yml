@@ -3,17 +3,17 @@
 - name: STEP
   blurb: Project description
   
- - name: SEEDS / MEME
+- name: SEEDS / MEME
   blurb: Project description
   
- - name: Net.Create
+- name: Net.Create
   blurb: Project description
   url: http://www.netcreate.org
   
- - name: RepTal
+- name: RepTal
   blurb: Project description
   url: http://reptalproject.org
   
-  - name: Cities on the edge
+- name: Cities on the edge
   blurb: Project description
 
