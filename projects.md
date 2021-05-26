@@ -8,6 +8,6 @@ permalink: /projects/
 {% for project in site.data.projects %}
 <b>{{project.name}}</b>
 {{project.blurb}}<br/>
-{% if project.url %}{{project.url }} <br/> {% endif %} 
+{% if project.url %}<a href="{{ project.url }}">{{project.url }}>/a><br/> {% endif %} 
 <br/>
 {% endfor %}
