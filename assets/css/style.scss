@@ -106,16 +106,16 @@ header ul a strong {
         width:100%;
     }
     header li {
-        width:33%;
+        width:25%;
     }
 	header ul li + li + li {
-        width:33%;
+        width:25%;
 	}
 }
 
 @media print, screen and (max-width: 480px) {
     header li {
-        width:33%;
+        width:25%;
     }
 }
 
