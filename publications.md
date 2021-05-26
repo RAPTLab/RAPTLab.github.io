@@ -11,7 +11,8 @@ permalink: /publications/
 <ul>
 {% assign itemsSorted = group.items | sort: "date" | reverse %}
 {% for item in itemsSorted %}
-<li>{{item.date}}--{{item.citation}}
+<li>{{item.citation}}
 {% endfor %}
+
 </ul>
 {% endfor %}
