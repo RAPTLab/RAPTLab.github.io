@@ -1,1 +1,9 @@
 # Project list
+
+- name: Net.Create
+  blurb: Project description
+  url: http://www.netcreate.org
+  
+- name: STEP
+  blurb: Project description
+  url: http://www.netcreate.org
