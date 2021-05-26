@@ -10,4 +10,5 @@ permalink: /projects/
 {% for item in group.items %}
 {{item.name}}
 {{item.blurb}}
+{% if item.url %}{%item.url %}{% endif %}
 {% endfor %}
