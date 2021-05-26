@@ -6,16 +6,11 @@
   image:
 
 - title: Members
-  url: /member-directory
+  url: /members
   excerpt:
   image:
 
-- title: Texts in Translation
-  url: /translations
-  excerpt:
-  image:
-
-- title: News + CFPs
-  url: /news
+- title: Publications
+  url: /publications
   excerpt:
   image:

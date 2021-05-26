@@ -2,25 +2,25 @@
 
 - last: Danish
   first: Joshua
-  role: Leader
-  status: Current
+  role: Head, Associate Professor
+  status: Current Lab Member
   url: https://www.joshuadanish.com
   affiliation: Indiana University Bloomington
 
 - last: Saleh
   first: Asmalina
   role: Research Scientist
-  status: Current
+  status: Current Lab Member
   affiliation: Indiana University Bloomington
 
 - last: Humburg
   first: Megan
   role: Graduate Researcher
-  status: Current
+  status: Current Lab Member
   affiliation: Indiana University Bloomington
 
 - last: Georgen
   first: Chris
   role: Graduate Researcher
-  status: Former
+  status: Former Lab Member
   affiliation: Postdoc, Boston University
