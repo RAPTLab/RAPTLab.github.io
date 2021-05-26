@@ -3,10 +3,10 @@ layout: default
 permalink: /
 ---
 
-### About RAPT Lab
+## About RAPT Lab
 
 Some pithy stuff here.
 
-### Recent publications
+## Recent publications
 
 A loop
