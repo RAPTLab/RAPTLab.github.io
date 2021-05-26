@@ -6,18 +6,60 @@
   status: Current Lab Member
   url: https://www.joshuadanish.com
   affiliation: Indiana University Bloomington
-
-- last: Saleh
-  first: Asmalina
-  role: Graduate Researcher
-  status: Emeritus Lab Member
-  affiliation: Postdoc, Indiana University Bloomington
-
+  
 - last: Humburg
   first: Megan
   role: Graduate Researcher
   status: Current Lab Member
   affiliation: Indiana University Bloomington
+  
+- last: Tu
+  first: Xintian
+  role: Graduate Researcher
+  status: Current Lab Member
+  affiliation: Indiana University Bloomington
+  
+- last: Davis
+  first: Bria
+  role: Graduate Researcher
+  status: Current Lab Member
+  affiliation: Indiana University Bloomington
+  
+- last: Zhou
+  first: Mengxi
+  role: Graduate Researcher
+  status: Current Lab Member
+  affiliation: Indiana University Bloomington
+    
+- last: Ryan
+  first: Zach
+  role: Graduate Researcher
+  status: Current Lab Member
+  affiliation: Indiana University Bloomington
+  
+- last: Stiso
+  first: Christina
+  role: Graduate Researcher
+  status: Current Lab Member
+  affiliation: Indiana University Bloomington
+  
+- last: Mathayas
+  first: Nitasha
+  role: Postdoctoral Researcher
+  status: Current Lab Member
+  affiliation: Indiana University Bloomington
+  
+- last: Nicholas
+  first: Celeste
+  role: Postdoctoral Researcher
+  status: Current Lab Member
+  affiliation: Indiana University Bloomington
+  
+- last: Saleh
+  first: Asmalina
+  role: Graduate Researcher
+  status: Emeritus Lab Member
+  affiliation: Postdoc, Indiana University Bloomington
 
 - last: Georgen
   first: Chris
