@@ -5,10 +5,8 @@ permalink: /projects/
 
 ## RAPT Lab Projects
 
-{% assign items_grouped = site.data.projects %}
-
-{% for item in group.items %}
-{{item.name}}
-{{item.blurb}}
-{% if item.url %}{%item.url %}{% endif %}
+{% for project in group.projects %}
+{{project.name}}
+{{project.blurb}}
+{% if project.url %}{%project.url %}{% endif %}
 {% endfor %}
