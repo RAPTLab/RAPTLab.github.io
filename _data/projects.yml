@@ -1,9 +1,19 @@
 # Project list
-
-- name: Net.Create
-  blurb: Project description
-  url: http://www.netcreate.org
   
 - name: STEP
   blurb: Project description
+  
+ - name: SEEDS / MEME
+  blurb: Project description
+  
+ - name: Net.Create
+  blurb: Project description
   url: http://www.netcreate.org
+  
+ - name: RepTal
+  blurb: Project description
+  url: http://reptalproject.org
+  
+  - name: Cities on the edge
+  blurb: Project description
+
