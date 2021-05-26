@@ -8,11 +8,11 @@
   
 - name: Net.Create
   blurb: Project description
-  url: http://www.netcreate.org
+  url: 'http://www.netcreate.org'
   
 - name: RepTal
   blurb: Project description
-  url: http://reptalproject.org
+  url: 'http://reptalproject.org'
   
 - name: Cities on the edge
   blurb: Project description
