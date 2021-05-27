@@ -5,7 +5,7 @@ permalink: /publications/
 
 ## RAPT Lab Publications
 
-{% assign groups = site.data.publications | group_by: "project" | sort: "value" %}
+{% assign groups = site.data.publications | group_by: "project" | sort: "value" | reverse %}
 {% for group in groups %}
 <h3>{{ group.name }}</h3><ul>
 {% assign itemsSorted = group.items | sort: "date" | reverse %}
