@@ -1,0 +1,16 @@
+# Project list
+  
+- name: STEP
+  blurb: In the Science through Technology Enhanced Play (STEP) project, we are investigating how embodied play among elementary school students can be used to help them understand scientific phenomena (e.g., the working of forces, complex behaviors of bees).
+- name: SEEDS / MEME
+  blurb: In the Scaffolding Explanations and Epistemic Development for Systems (SEEDS) project, we are exploring how elementary students (5th grade) think about different kinds of evidence as important for helping them create and revise models of scientific phenomena. To study this, we developed the Model and Evidence Mapping Environment (MEME).
+  url: https://memeresearch.github.io  
+- name: Net.Create
+  blurb: Net.Create is a collaborative network visualization tool developed to help users explore a large corpus of data together, concurrently. This was originally implemented in undergraduate history classrooms.
+  url: http://www.netcreate.org
+- name: RepTal
+  blurb: The Representations for Teachers as Learners (RepTal) project aims to better understand how elementary teachers think about representations as part of their science teaching.
+  url: http://reptalproject.org 
+- name: Cities on the Ddge
+  blurb: This is a bespoke semester-long board and roleplaying game we developed to help undergraduate history students explore the period leading up to and during the Peloponnesian war. 
+

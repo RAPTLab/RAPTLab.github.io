@@ -1,12 +1,12 @@
 ---
 layout: default
-permalink: /patterns/
+permalink: /projects/
 ---
 
-## Patterns
+## RAPT Lab Projects
 
-{% for pattern in site.data.patterns %}
-### {{pattern.name}}<br>
+{% for project in site.data.projects %}
+### {{project.name}}<br>
 <ul>
   <li>{{project.blurb}}</li>
   {% if project.url %}<li><a href="{{ project.url }}" target="_blank">{{project.url}}</a></li>{% endif %}

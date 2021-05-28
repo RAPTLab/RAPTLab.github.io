@@ -3,10 +3,10 @@ layout: default
 permalink: /
 ---
 
-## About hapagirl
+## About RAPT Lab
 
 Some pithy stuff here.
 
-## Patterns
+## Recent publications
 
 A loop
