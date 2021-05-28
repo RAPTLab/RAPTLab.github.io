@@ -5,17 +5,12 @@
   excerpt:
   image:
 
-- title: Members
-  url: /members
+- title: Patterns
+  url: /patterns
   excerpt:
   image:
 
-- title: Projects
-  url: /projects
-  excerpt:
-  image:
-
-- title: Publications
-  url: /publications
+- title: Posts
+  url: /posts
   excerpt:
   image:
