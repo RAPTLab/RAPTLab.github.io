@@ -4,7 +4,7 @@
   blurb: In the Science through Technology Enhanced Play (STEP) project, we are investigating how embodied play among elementary school students can be used to help them understand scientific phenomena (e.g., the working of forces, complex behaviors of bees).
 - name: SEEDS / MEME
   blurb: In the Scaffolding Explanations and Epistemic Development for Systems (SEEDS) project, we are exploring how elementary students (5th grade) think about different kinds of evidence as important for helping them create and revise models of scientific phenomena. To study this, we developed the Model and Evidence Mapping Environment (MEME).
-  url: https://memeresearch.github.io  
+  url: http://modelingandevidence.org/
 - name: Net.Create
   blurb: Net.Create is a collaborative network visualization tool developed to help users explore a large corpus of data together, concurrently. This was originally implemented in undergraduate history classrooms.
   url: http://www.netcreate.org
