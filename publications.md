@@ -13,7 +13,7 @@ Get the set to group by year, then for each year grab the list of pubs to genera
 
 
 {% for citation in citations %}
-<h3>{{ citation.name }}</h3>
+<h3>{{ citation.name }}</h3> 
 
   <ul class="pubs">
   {% assign itemsSorted = citation.items | sort: "citation"%}
