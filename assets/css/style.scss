@@ -6,16 +6,22 @@
 	background-image: "/assets/img/background.jpg"
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color:#23395d
+h1 {
+    color:#23395D;
+    font-family: 'Libre Bodoni', serif;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #254512;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 a {
-    color:#23395d
+    color:#23395D
 }
 
 a:hover {
-    color:#000
+    color:#254512
 }
 
 a:hover, a:active {
@@ -43,8 +49,10 @@ header li {
     float: left;
     background-color:#ffffff;
     height:40px;
-	border-top: 2px solid #e5e5e5;
+	border-top: 2px solid #23395D;
+    color:#254512;
 	border-radius: 0px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 header li:first-child a {
@@ -57,10 +65,13 @@ header li:last-child a {
 	border-radius: 0px;
 }
 
+.pubicon {
+    margin: 4px 4px 10px 20px;
+}
+
 header ul li a {
     border:0px;
     line-height: 1;
-    font-size: 11px;
     display: block;
     text-align: center;
     padding-top: 6px;
@@ -68,10 +79,9 @@ header ul li a {
 }
 
 header ul li a:hover, header ul li a:focus {
-    color: #ffffff;
-    background-color: #152238;
+    background-color: #D3DFCD;
     font-weight:normal;
-	border-top: 2px solid #23395d;
+	border-top: 2px solid #23395D;
 }
 
 header ul a:active {
@@ -86,8 +96,6 @@ header ul a strong {
     display: block;
     color:#222
 }
-
-
 
 
 

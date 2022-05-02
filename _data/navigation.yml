@@ -1,21 +1,21 @@
 # Site navigation links
 
-- title: Home
+- title: HOME
   url: /
   excerpt:
   image:
 
-- title: Members
+- title: MEMBERS
   url: /members
   excerpt:
   image:
 
-- title: Projects
+- title: PROJECTS
   url: /projects
   excerpt:
   image:
 
-- title: Publications
+- title: PUBLICATIONS
   url: /publications
   excerpt:
   image:

@@ -9,7 +9,6 @@ permalink: /projects/
 ### {{project.name}}<br>
 <ul>
   <li>{{project.blurb}}</li>
-  {% if project.url %}<li><a href="{{ project.url }}" target="_blank">{{project.url}}</a></li>{% endif %}
-<li>Add: members, collaborators, pubs, grant info.</li>
+  {% if project.url %}<br>For more info, see the project website at: <a href="{{ project.url }}" target="_blank">{{project.url}}</a>.{% endif %}
   </ul>
 {% endfor %}
