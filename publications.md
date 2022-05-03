@@ -5,7 +5,7 @@ permalink: /publications/
 
 ## RAPT Lab Publications
 
-{% comment %}
+{% comment %} 
 Get the set to group by year, then for each year grab the list of pubs to generate a bullet for each. 
 {% endcomment %}
 
