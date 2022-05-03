@@ -23,9 +23,11 @@ Get the set to group by year, then for each year grab the list of pubs to genera
       {% endif %}
     {% endfor %}
     
-    {% assign project_info = site.data.projects | find: "name", item.project %}
+    {% assign project_infos = site.data.projects | where: "name", item.project %}
+      {% for project_info in project_infos %}
         <br>{% if project_info.url %}<i class="fa-solid fa-up-right-from-square pubicon">{% endif %}{% if project_info.url == nil %} <i class="fa-solid fa-masks-theater pubicon">{%endif%}
-        </i>{{item.project}}{% if true %}: <a href="{{project_info.url}}" target="_blank">{{project_info.url}}</a>{% endif %}
+        </i>{{item.project}}{% if project_info.url %}: <a href="{{project_info.url}}" target="_blank">{{project_info.url}}</a>{% endif %}
+        {% endfor %}
     </li>
   {% endfor %}
   </ul>
