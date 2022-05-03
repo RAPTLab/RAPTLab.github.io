@@ -28,12 +28,6 @@ a:hover, a:active {
     outline:0
 }
 
-#-------image styling
-
-img.projectlogo {
-    float: left;
-}
-
 #-------nav bar
 
 header ul {
@@ -160,4 +154,9 @@ header ul a strong {
 
 footer {
 	bottom:0px;
+}
+
+.projectlogo {
+    float: left;
+    display:inline;
 }
