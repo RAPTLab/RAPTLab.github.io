@@ -172,6 +172,14 @@ footer {
     }
 }
 
+ul.pubs {
+    list-style-type: none;
+}
+ul.pubs li {
+    text-indent: -2em; 
+    margin: 0.33em 1em 0.5em 3em;
+}
+
 .row {
     margin-top: .7em;
 }

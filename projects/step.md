@@ -37,7 +37,7 @@ permalink: /projects/step
   <ul class="pubs">
   {% for item in itemsSorted %}<li>{{item.citation}}        
     {% for link in item.links %}
-      {% if link.url %}<a href="{{link.url}}" target="_blank">[{{link.linklabel}}]</a>
+      {% if link.url %}[<a href="{{link.url}}" target="_blank">{{link.linklabel}}</a>]
       {% endif %}
     {% endfor %}
     </li>
