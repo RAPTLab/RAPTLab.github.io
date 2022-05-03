@@ -2,7 +2,7 @@
 
 - last: Danish
   first: Joshua
-  role: Head, Associate Professor
+  role: Head, Professor
   status: Current Lab Member
   url: https://www.joshuadanish.com
   affiliation: Indiana University Bloomington
@@ -22,6 +22,7 @@
 - last: Vickery
   first: Morgan
   role: Graduate Researcher
+  url: http://morganavickery.com
   status: Current Lab Member
   affiliation: Indiana University Bloomington
   
@@ -46,6 +47,7 @@
 - last: Stiso
   first: Christina
   role: Graduate Researcher
+  url:  http://christinastiso.com
   status: Current Lab Member
   affiliation: Indiana University Bloomington
   
