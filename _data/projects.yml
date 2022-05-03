@@ -5,17 +5,33 @@
   blurb: In the Science through Technology Enhanced Play (STEP) project, we are investigating how embodied play among elementary school students can be used to help them understand scientific phenomena (e.g., the working of forces, complex behaviors of bees).
   logo: step_logo.png
   more: /projects/step
+  Grants:
+    - Grant:
+      Name: GEM-STEP
+      Number:
+      PIs: 'Joshua Danish, Noel Enyedy, Corey Brady'
+      Link:
+    - Grant: 
+      Name: iSTEP
+      Number:
+      PIs:
+      Link:
+    - Grant: 
+      Name: iSTEP
+      Number:
+      PIs:
+      Link:
+- name: Net.Create
+  blurb: Net.Create is a collaborative network visualization tool developed to help users explore a large corpus of data together, concurrently. This was originally implemented in undergraduate history classrooms.
+  url: http://www.netcreate.org
+  logo: net_create.svg
+  more: /projects/netcreate
 - name: SEEDS
   full_name: Scaffolding Explanations and Epistemic Development for Systems (SEEDS)
   blurb: In the Scaffolding Explanations and Epistemic Development for Systems (SEEDS) project, we are exploring how elementary students (5th grade) think about different kinds of evidence as important for helping them create and revise models of scientific phenomena. To study this, we developed the Model and Evidence Mapping Environment (MEME).
   url: http://modelingandevidence.org
   logo: seeds_logo.png
   more: /projects/seeds
-- name: Net.Create
-  blurb: Net.Create is a collaborative network visualization tool developed to help users explore a large corpus of data together, concurrently. This was originally implemented in undergraduate history classrooms.
-  url: http://www.netcreate.org
-  logo: net_create.svg
-  more: /projects/netcreate
 - name: RepTal
   full_name: Representations for Teachers as Learners (RepTal)
   blurb: The Representations for Teachers as Learners (RepTal) project aims to better understand how elementary teachers think about representations as part of their science teaching.
@@ -27,3 +43,11 @@
   blurb: This is a bespoke semester-long board and roleplaying game we developed to help undergraduate history students explore the period leading up to and during the Peloponnesian war. 
   logo: cities_logo.png
   more: /projects/cities
+- name: BeeSign
+  blurb: 'BeeSign is a computer simulation designed to help young students observe the behavior of honeybees as they collect nectar and experiment with the result of changing either the behavior of the bees or the environment in which the hive is located. As a research project, BeeSign was designed to help early elementary students (grades k-2) explore complex systems concepts in intuitive ways.'
+- name: BioSim
+  blurb: 'Our goal in the BioSim project is to help early elementary students (k-2) explore complex systems concepts by engaging in participatory simulations where they take on the role of honeybees (BeeSim) or ants (AntSim) foraging for food. To support students in embodying these roles, they work with electronic puppets that help track their food collection activities and provide real-time feedback to them.'
+- name: LPP
+  full_name: Learning Physics through Play (LPP)
+  blurb: 'In the Learning Physics through Play project, we first explored the potential of computer vision coupled with embodied play as a means for supporting students in learning complex science concepts. This project focused on force and motion with 1st and 2nd grade students.'
+
