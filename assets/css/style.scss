@@ -156,7 +156,31 @@ footer {
 	bottom:0px;
 }
 
-.projectlogo {
-    float: left;
-    display:inline;
+.left {
+    @media print, screen and (min-width: 40em) {
+        float:left;
+        display:inline;
+        width: 35%;
+    }
 }
+
+.right {
+    @media print, screen and (min-width: 40em) {
+        float:left;
+        display:inline;
+        width: 65%;
+    }
+}
+
+.row {
+    margin-top: .7em;
+}
+.row h2 {
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
