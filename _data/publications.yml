@@ -6,6 +6,22 @@
   - url: 'https://doi.org/10.1016/j.lcsi.2021.100542'
     linklabel: 'paper'
 
+- citation: 'Craig, K., Danish, J., Humburg, M., Hmelo-Silver, C., Szostalo, M., & McCranie, A. (2021). Net.Create: Network Visualization to Support Collaborative Historical Knowledge Building. International Journal of Computer-Supported Collaborative Learning.'
+  project: 'Net.Create'
+  type: 'Journal Article'
+  date: '2021'
+  links:
+  - url: 'https://doi.org/10.1007/s11412-021-09343-9'
+    linklabel: 'paper'
+
+- citation: 'Danish, J. A., Enyedy, N., Saleh, A., & Humburg, M. (2020). Learning in embodied activity framework: a sociocultural framework for embodied cognition. International Journal of Computer-Supported Collaborative Learning, 15(1), 49-87. doi:10.1007/s11412-020-09317-3'
+  project: 'STEP'
+  type: 'Journal Article'
+  date: '2020'
+  links:
+  - url: 'https://doi.org/10.1007/s11412-020-09317-3'
+    linklabel: 'paper'
+
 - citation: 'Dahn, M., Lee, C., Enyedy, N., & Danish, J. (2021). Instructional improv to analyze inquiry-based science teaching: Zed’s dead and the missing flower. Smart Learning Environments, 8(1).'
   project: 'STEP'
   type: 'Journal Article'
