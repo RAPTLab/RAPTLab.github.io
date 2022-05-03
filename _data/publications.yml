@@ -6,6 +6,14 @@
   - url: 'https://doi.org/10.1016/j.lcsi.2021.100542'
     linklabel: 'paper'
 
+- citation: 'Ryan, Z., Stiso, C., Danish, J., & Robinson, E. (2021). <em>Designing sustained game-based learning environments to engage undergraduate students in history.</em> ISLS Community Report retrieved from https://repository.isls.org//handle/1/6855'
+  project: 'Cities on the Edge'
+  type: 'Journal Article'
+  date: '2021'
+  links:
+  - url: 'https://repository.isls.org//handle/1/6855'
+    linklabel: 'paper'
+
 - citation: 'Craig, K., Danish, J., Humburg, M., Hmelo-Silver, C., Szostalo, M., & McCranie, A. (2021). Net.Create: Network Visualization to Support Collaborative Historical Knowledge Building. International Journal of Computer-Supported Collaborative Learning.'
   project: 'Net.Create'
   type: 'Journal Article'
