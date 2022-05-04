@@ -32,6 +32,6 @@ permalink: /publications/
   </li>
 
 {% endfor %}
-
+<br>
 <strong>NOTE</strong>: Additional publications are currently being imported so if there is something you expect don't see but are curious about please contact JDanish AT iu.edu.
 

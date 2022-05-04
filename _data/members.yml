@@ -2,10 +2,11 @@
 
 - last: Danish
   first: Joshua
-  role: Head, Professor
+  role: Lab Director, Professor
   status: Current Lab Member
   url: https://www.joshuadanish.com
   affiliation: Indiana University Bloomington
+  interests: Embodied, Science Education, Elementary Education, Representations, Activity, Play, Technology in Learning
   
 - last: Humburg
   first: Megan
@@ -59,18 +60,15 @@
   
 - last: Nicholas
   first: Celeste
-  role: Postdoctoral Researcher
+  role: Previously a Postdoctoral Researcher
   status: Emeritus Lab Member
-  affiliation: Indiana University Bloomington
   
 - last: Saleh
   first: Asmalina
-  role: Graduate Researcher
+  role: Previously a Graduate Researcher
   status: Emeritus Lab Member
-  affiliation: Postdoc, Indiana University Bloomington
 
 - last: Georgen
   first: Chris
-  role: Graduate Researcher
+  role: Previously a Graduate Researcher
   status: Emeritus Lab Member
-  affiliation: Postdoc, Boston University
