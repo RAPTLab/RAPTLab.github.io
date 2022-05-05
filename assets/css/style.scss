@@ -164,6 +164,15 @@ footer {
     }
 }
 
+
+.thinLeft {
+    @media print, screen and (min-width: 40em) {
+        float:left;
+        display:inline;
+        width: 25%;
+    }
+}
+
 .right {
     @media print, screen and (min-width: 40em) {
         float:left;
