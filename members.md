@@ -9,7 +9,7 @@ permalink: /members/
 {% assign groups = site.data.members | group_by: "status" | sort: "value" %}
 {% for group in groups %}
 
-    <h3>{{ group.name }}s</h3>
+    <h3>{{ group.name }}{% if group.name != "Lab Alumni"%}s{%endif%}</h3>
 
 
     {% assign itemsSorted = group.items | sort: "last" %}
