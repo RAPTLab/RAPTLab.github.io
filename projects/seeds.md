@@ -23,6 +23,6 @@ We have been exploring students' use of MEME as part of the NSF-funded Scaffoldi
 ### Context of Use
 Meme was originally developed for use in 5th grade science classrooms where students used it to explore eutrophication (Danish et al., 2021). You can see more about this in our resources page. However, we have also used it in grduate seminars, undergraduate courses, and to support our design efforts as we attempt to develop Design Based Research (DBR) conjectures and plan our next study. In short, we think it can be helpful in any context where it is useful to collaboratively develop a model, particularly if you wish to link that model to evidence or other resources.
 
-{% include project_details.html %}
+{% include project_funding.html %}
 
 {% include project_pubs.html %}
