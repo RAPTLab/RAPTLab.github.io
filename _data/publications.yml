@@ -253,3 +253,11 @@
   links:
   - url: 'https://doi.org/10.1108/ILS-04-2020-0105'
     linklabel: 'paper'
+
+- citation: 'DeLiema, D., Enyedy, N., Steen, F., & Danish, J. A. (2021). Integrating Viewpoint and Space: How Lamination across Gesture, Body Movement, Language, and Material Resources Shapes Learning. Cognition and Instruction, 1-38.'
+  project: 'STEP'
+  type: 'Journal Article'
+  date: '2021'
+  links:
+  - url: 'https://www.tandfonline.com/doi/abs/10.1080/07370008.2021.1928133'
+    linklabel: 'paper'
