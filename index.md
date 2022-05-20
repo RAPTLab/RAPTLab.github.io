@@ -23,7 +23,8 @@ Most of our projects combine these ideas together!
 
   <ul class="pubs">
 
-{% for publication in site.data.publications limit:5 %}
+{% assign publications = site.data.publications | sort: "date" | reverse %}
+{% for publication in publications limit:5  %}
 
 <li>{{publication.citation}}        
 
