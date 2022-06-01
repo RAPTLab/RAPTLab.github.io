@@ -15,23 +15,29 @@ permalink: /publications/
   {% assign itemsSorted = citation.items | sort: "citation"%}
   {% for item in itemsSorted %}
 
-  <li>
-  {{item.citation}}      
+    {% comment %} Hide any pubs that should only be on the project page (not lab or all) - this may need tweaking for personal website {% endcomment %} 
+    {% if item.visibility == 'Project' %}    
+      {% continue %}
+    {% endif %}
+
+    <li>
+      {{item.citation}}      
+      
+          
+        {% for link in item.links %}
+          {% if link.url %}[<a href="{{link.url}}" target="_blank">{{link.linklabel}}</a>]{% endif %}
+        {% endfor %}
+        
+        {% assign project_infos = site.data.projects | where: "name", item.project %}
+          {% for project_info in project_infos %}
+            {% if project_info.more %}[<a href="{{project_info.more}}">{{project_info.name}} project info</a>]{% endif %}
+            {% if project_info.url %}[<a href="{{project_info.url}}" target="_blank">{{project_info.name}} website</a>]{% endif %}
+          {% endfor %}
+    </li>
   
-    {% for link in item.links %}
-      {% if link.url %}[<a href="{{link.url}}" target="_blank">{{link.linklabel}}</a>]
-      {% endif %}
-    {% endfor %}
-    
-    {% assign project_infos = site.data.projects | where: "name", item.project %}
-      {% for project_info in project_infos %}
-        {% if project_info.more %}[<a href="{{project_info.more}}">{{project_info.name}} project info</a>]{% endif %}
-        {% if project_info.url %}[<a href="{{project_info.url}}" target="_blank">{{project_info.name}} website</a>]{% endif %}
-      {% endfor %}
   {% endfor %}
-  </li>
 
 {% endfor %}
 <br>
-<strong>NOTE</strong>: Additional publications are currently being imported so if there is something you expect don't see but are curious about please contact JDanish AT iu.edu.
+<strong>NOTE</strong>: Additional publications are currently being imported so if there is something you expect don't see but are curious about please contact JDanish [@] iu.edu.
 

@@ -9,7 +9,14 @@
 {% if itemsSorted.size > 0 %}
 <h3>{{ citation.name }}</h3>
   <ul class="pubs">
-  {% for item in itemsSorted %}<li>{{item.citation}}        
+  {% for item in itemsSorted %}
+
+  {% comment %} Hide any pubs that should only be on the project page (not lab or all) - this may need tweaking for personal website {% endcomment %} 
+  {% if item.visibility == 'Project' %}    
+    {% continue %}
+  {% endif %}
+
+  <li>{{item.citation}}        
     {% for link in item.links %}
       {% if link.url %}[<a href="{{link.url}}" target="_blank">{{link.linklabel}}</a>]
       {% endif %}
