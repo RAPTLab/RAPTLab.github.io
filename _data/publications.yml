@@ -552,3 +552,81 @@
   visibility: 'Project'
   type: 'Conference Presentations'
   date: '2022'
+
+- citation: 'Danish, J. A., Saleh, A., Andrade, A., & Bryan, B. (2017). Observing complex systems thinking in the zone of proximal development. Instructional Science, 1–20.'
+  project: 'BeeSign'
+  type: 'Journal Article'
+  visibility: 'All'
+  date: '2017'
+  links:
+  - url: 'http://dx.doi.org/10.1007/s11251-016-9391-z'
+    linklabel: 'paper'
+
+- citation: 'Danish, J. A., Enyedy, N., Saleh, A., & Lee, C. (2016). Designing for Activity. In V. Svihla & R. Reeve (Eds.), Design as Scholarship: Case Studies from the Learning Sciences (p. 26). Routledge.'
+  project: 'BeeSign'
+  type: 'Book Chapter'
+  visibility: 'All'
+  date: '2016'
+
+- citation: 'Danish, J. A. (2014). Applying an Activity Theory Lens to Designing Instruction for Learning About the Structure, Behavior, and Function of a Honeybee System. Journal of the Learning Sciences, 23(2), 1–49.'
+  project: 'BeeSign'
+  type: 'Journal Article'
+  visibility: 'All'
+  date: '2014'
+  links:
+  - url: 'https://doi.org/10.1080/10508406.2013.856793'
+    linklabel: 'paper'
+
+- citation: 'Peppler, K., Danish, J. A., & Phelps, D. (2013). Collaborative Gaming: Teaching Children About Complex Systems and Collective Behavior. Simulation & Gaming.'
+  project: 'BeeSign'
+  type: 'Journal Article'
+  visibility: 'All'
+  date: '2013'
+  links:
+  - url: 'http://journals.sagepub.com/doi/abs/10.1177/1046878113501462'
+    linklabel: 'paper'
+
+- citation: 'Danish, J. A., Saleh, A., & Andrade, L. A. (2013). Designing Interactive Scaffolds to Support Teacher-Led Inquiry of Complex Systems Concepts (poster). In S. Puntambekar, N. Rummel, M. Kapur, & M. Nathan (Eds.), Proceedings of the 10th International Conference on Computer Supported Collaborative Learning. Madison, WI.'
+  project: 'BeeSign'
+  type: 'Conference Proceedings'
+  visibility: 'All'
+  date: '2013'
+
+- citation: 'Danish, J. A. (2013). Designing for Technology Enhanced Activity to Support Learning. The Journal of Emerging Learning Design, (1). '
+  project: 'BeeSign'
+  type: 'Journal Article'
+  visibility: 'All'
+  date: '2013'
+  links:
+  - url: 'http://eldj.montclair.edu/2013/04/19/designing-for-technology-enhanced-activity-to-support-learning/'
+    linklabel: 'paper'
+
+- citation: 'Danish, J. A., Peppler, K., Phelps, D., & Washington, D. A. (2011). Life in the Hive: Supporting Inquiry into Complexity Within the Zone of Proximal Development. Journal of Science Education and Technology, 20(5), 454–467.'
+  project: 'BeeSign'
+  type: 'Journal Article'
+  visibility: 'All'
+  date: '2011'
+  links:
+  - url: 'http://doi.org/10.1007/s10956-011-9313-4'
+    linklabel: 'paper'
+
+- citation: 'Danish, J. A., & Phelps, D. (2010). Representational Practices by The Numbers: How Kindergarten and First-Grade Students Create, Evaluate, and Modify Their Science Representations. International Journal of Science Education, 33(15), 2069–2094'
+  project: 'BeeSign'
+  type: 'Journal Article'
+  visibility: 'All'
+  date: '2010'
+  links:
+  - url: 'http://doi.org/10.1007/s10956-011-9313-4'
+    linklabel: 'paper'
+
+- citation: 'Danish, J. A., Peppler, K., & Phelps, D. (2010). BeeSign: Designing to Support Mediated Group Inquiry of Complex Science by Early Elementary Students. In 9th International Conference on Interaction Design and Children (pp. 182–185). ACM.'
+  project: 'BeeSign'
+  type: 'Journal Article'
+  visibility: 'All'
+  date: '2010'
+
+- citation: 'Danish, J. A. (2009). BeeSign: a Design Experiment to Teach Kindergarten and First Grade Students About Honeybees From a Complex Systems Perspective. annual meeting of the American Educational Research Association.'
+  project: 'BeeSign'
+  type: 'Conference Presentation'
+  visibility: 'All'
+  date: '2009'
