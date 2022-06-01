@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /publications/
+visibility: 'Lab'
 ---
 
 ## RAPT Lab Publications
@@ -15,9 +16,15 @@ permalink: /publications/
   {% assign itemsSorted = citation.items | sort: "citation"%}
   {% for item in itemsSorted %}
 
-    {% comment %} Hide any pubs that should only be on the project page (not lab or all) - this may need tweaking for personal website {% endcomment %} 
-    {% if item.visibility == 'Project' %}    
+    {% comment %} Slightly clunky, but basically, project pubs should only be visible if the page vis is project, and lab pubs if it is Lab, so lab or project only is hidden on "all" which is my website {% endcomment %} 
+
+
+    {% if page.visibility == 'All' and item.visibility == 'Project' or  item.visibility == 'Lab'  %}    
       {% continue %}
+    {% endif %}
+
+    {% if page.visibility == 'Lab' and item.visibility == 'Project' %}    
+        {% continue %}
     {% endif %}
 
     <li>

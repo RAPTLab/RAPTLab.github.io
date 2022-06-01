@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/RepTal
 projectName: 'RepTal'
+visibility: 'Lab'
 ---
 
 {% include project_blurb.html %}

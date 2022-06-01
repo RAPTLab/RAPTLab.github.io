@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/cities
 projectName: 'Cities on the Edge'
+visibility: 'Lab'
 ---
 
 {% include project_blurb.html %}

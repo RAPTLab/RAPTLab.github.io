@@ -2,7 +2,7 @@
 layout: default
 permalink: /projects/netcreate
 projectName: 'Net.Create'
-
+visibility: 'Lab'
 ---
 
 {% include project_blurb.html %}

@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/seeds
 projectName: 'SEEDS'
+visibility: 'Lab'
 ---
 
 {% include project_blurb.html %}

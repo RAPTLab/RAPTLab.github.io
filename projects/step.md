@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/step
 projectName: 'STEP'
+visibility: 'Lab'
 ---
 
 {% include project_blurb.html %}
