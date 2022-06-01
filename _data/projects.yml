@@ -69,9 +69,13 @@
   more: /projects/cities
 - name: BeeSign
   blurb: 'BeeSign is a computer simulation designed to help young students observe the behavior of honeybees as they collect nectar and experiment with the result of changing either the behavior of the bees or the environment in which the hive is located. As a research project, BeeSign was designed to help early elementary students (grades k-2) explore complex systems concepts in intuitive ways.'
+  logo: beesign_logo.png
 - name: BioSim
   blurb: 'Our goal in the BioSim project is to help early elementary students (k-2) explore complex systems concepts by engaging in participatory simulations where they take on the role of honeybees (BeeSim) or ants (AntSim) foraging for food. To support students in embodying these roles, they work with electronic puppets that help track their food collection activities and provide real-time feedback to them.'
 - name: LPP
   full_name: Learning Physics through Play (LPP)
   blurb: 'In the Learning Physics through Play project, we first explored the potential of computer vision coupled with embodied play as a means for supporting students in learning complex science concepts. This project focused on force and motion with 1st and 2nd grade students.'
-
+- name: Other
+  full_name: Other Projects
+  blurb: 'This is a placeholder for any work that was not part of a larger, core project'
+  hide: true
