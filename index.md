@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /
+visibility: Lab
 ---
 
 ## About RAPT Lab
@@ -24,7 +25,17 @@ Most of our projects combine these ideas together!
   <ul class="pubs">
 
 {% assign publications = site.data.publications | sort: "date" | reverse %}
-{% for publication in publications limit:5  %}
+{% assign pubCounter = 0 %}
+
+{% for publication in publications   %}
+
+  {% if page.visibility == 'All' and publication.visibility == 'Project' or  publication.visibility == 'Lab'  %}    
+      {% continue %}
+  {% endif %}
+
+    {% if page.visibility == 'Lab' and publication.visibility == 'Project' %}    
+        {% continue %}
+    {% endif %}
 
 <li>{{publication.citation}}        
 
@@ -41,6 +52,11 @@ Most of our projects combine these ideas together!
       {% endfor %}
 
     </li>
+
+    {% assign pubCounter = pubCounter | plus: 1 %}
+    {% if pubCounter >= 4 %}
+      {% break %}
+    {% endif %}
   {% endfor %}
 
   </ul>
