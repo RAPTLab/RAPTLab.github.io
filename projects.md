@@ -3,7 +3,7 @@ layout: default
 permalink: /projects/
 ---
 
-## RAPT Lab Projects
+## My Projects
 
 {% for project in site.data.projects %}
 {% if project.hide %}{% continue %}{% endif %}
@@ -15,7 +15,10 @@ permalink: /projects/
   </div>
 {% endif %}
 <div class="right">
-  <p>{{project.blurb}}</p> {% if project.more %}<p>[<a href="{{ project.more }}">more about {{project.name}}</a>]</p>{% endif %}
+  <p>{{project.blurb}}</p> {% if project.more %}<p><i class="fa-solid fa-dna"></i><a href="{{ project.more }}">more about {{project.name}}</a></p>{% endif %}
   </div>
 </div>
 {% endfor %}
+
+## RAPT Lab
+I direct the Representations, Activity, Play and Technology (RAPT) Lab, and do most of this work in collaboration with my team. You can see more about the lab at  <a href="http://theraptlab.org" target="_blank">RAPTLab.org</a>
