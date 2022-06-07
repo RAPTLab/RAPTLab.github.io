@@ -29,7 +29,6 @@ permalink: /members/
             <div class="right">
             <p>
                 <strong>{{ item.first }} {{ item.last }}</strong> <em>{{ item.role }}</em><br>
-                {% if item.affiliation %} {{ item.affiliation }}{% endif %}
             </p>
 
             {% if item.url %}
