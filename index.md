@@ -41,14 +41,14 @@ Most of our projects combine these ideas together!
 
 
     {% for link in publication.links %}
-      {% if link.url %}[<a href="{{link.url}}" target="_blank">{{link.linklabel}}</a>]
+      {% if link.url %}<a href="{{link.url}}" target="_blank"><i class="fa-regular fa-file-lines"></i>{{link.linklabel}}</a>
       {% endif %}
     {% endfor %}
 
       {% assign project_infos = site.data.projects | where: "name", publication.project %}
       {% for project_info in project_infos %}
-        {% if project_info.more %}[<a href="{{project_info.more}}">{{project_info.name}} project info</a>]{% endif %}
-        {% if project_info.url %}[<a href="{{project_info.url}}" target="_blank">{{project_info.name}} website</a>]{% endif %}
+        {% if project_info.more %}<a href="{{project_info.more}}"><i class="fa-solid fa-dna"></i>{{project_info.name}} project info</a>{% endif %}
+        {% if project_info.url %}<a href="{{project_info.url}}" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>{{project_info.name}} website</a>{% endif %}
       {% endfor %}
 
     </li>
