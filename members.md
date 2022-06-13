@@ -19,11 +19,10 @@ permalink: /members/
         <div class="row">
         {% if item.pic %}
             <div class="thinLeft">
-                <img src="{{item.pic}}" alt="Photo of {{item.name}}" width="100" >
+                <img src="{{item.pic}}" alt="Photo of {{item.name}}" width="100" > 
             </div>
         {% else %}
-            <div class="thinLeft">
-                <img src="/assets/img/people/bee_icon.png" alt="Cute picture of a bee" width="100" >
+            <div class="thinLeft"><i class="fa fa-user fa-5x" aria-hidden="true"></i>
             </div>
         {% endif %}
             <div class="right">
