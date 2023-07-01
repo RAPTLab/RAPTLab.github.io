@@ -27,7 +27,7 @@ permalink: /members/
         {% endif %}
             <div class="right">
             <p>
-                <strong>{{ item.first }} {{ item.last }}</strong> <em>{% if item.pronouns %} ({{ item.pronouns }}){% endif %}{{ item.role }}</em><br>
+                <strong>{{ item.first }} {{ item.last }}</strong>{% if item.pronouns %} ({{ item.pronouns }}) {% endif %} <em>{{ item.role }}</em><br>
                 {% if item.affiliation %} {{ item.affiliation }}{% endif %}
             </p>
 
