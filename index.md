@@ -24,7 +24,7 @@ Most of our projects combine these ideas together!
 
   <ul class="pubs">
 
-{% assign publications = site.data.publications | sort: "date" | reverse %}
+{% assign publications = site.data.rapt_web_data.publications | sort: "date" | reverse %}
 {% assign pubCounter = 0 %}
 
 {% for publication in publications   %}
@@ -45,7 +45,7 @@ Most of our projects combine these ideas together!
       {% endif %}
     {% endfor %}
 
-      {% assign project_infos = site.data.projects | where: "name", publication.project %}
+      {% assign project_infos = site.data.rapt_web_data.projects | where: "name", publication.project %}
       {% for project_info in project_infos %}
         {% if project_info.more %}<a href="{{project_info.more}}"><i class="fa-solid fa-dna"></i>{{project_info.name}} project info</a>{% endif %}
         {% if project_info.url %}<a href="{{project_info.url}}" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>{{project_info.name}} website</a>{% endif %}
