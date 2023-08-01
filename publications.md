@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /publications/
-visibility: 'All'
+visibility: 'Lab'
 ---
 
 ## Publications
@@ -26,7 +26,7 @@ You can also download my <a href="../assets/jdanish_webcv.pdf" target="_blank">C
       {% continue %}
     {% endif %}
 
-    {% if page.visibility == 'Lab' and item.visibility == 'Project' %}    
+    {% if page.visibility == 'Lab' and item.visibility == 'Project'  %}    
         {% continue %}
     {% endif %}
 
