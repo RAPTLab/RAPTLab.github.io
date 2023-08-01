@@ -6,7 +6,7 @@ visibility: 'Lab'
 
 ## Publications
 
-You can also download my <a href="../assets/jdanish_webcv.pdf" target="_blank">CV as a PDF</a>.
+These are publications by all of our lab members, including work that they may have done with collaborators elsewhere. If you wish to see a specific project's publications please use the navigation on the left.
 
 {% comment %} Get the set to group by year, then for each year grab the list of pubs to generate a bullet for each. {% endcomment %}
 {% assign citations = site.data.rapt_web_data.publications |  sort: "date" | reverse | group_by: "date"  %}
