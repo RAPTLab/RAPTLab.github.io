@@ -20,7 +20,7 @@ Most of our projects combine these ideas together!
 <img src="assets/img/rapt_network.png" alt="Pic of the RAPT elements connected to eaach other" width="450">
 -->
 
-## Recent publications
+## Recent publications by RAPT lab members
 
   <ul class="pubs">
 
