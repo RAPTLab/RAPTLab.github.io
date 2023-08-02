@@ -13,9 +13,14 @@ We are broadly interested in how people learn in complex, real-world circumstanc
 <ul><strong>Play:</strong> Play is both a powerful motivator and a key element of human learning and development. We are interested in exploring what kinds of play, and how it can be organized to support learning.</ul>
 <ul><strong>Technology:</strong> We design new technologies that help bring people together to learn in new ways.</ul>
 
-Most of our projects combine these ideas together! 
 
-## Recent publications from lab members
+Most of our projects combine these ideas together! 
+<!-- 
+<br>
+<img src="assets/img/rapt_network.png" alt="Pic of the RAPT elements connected to eaach other" width="450">
+-->
+
+## Recent publications
 
   <ul class="pubs">
 
@@ -23,17 +28,18 @@ Most of our projects combine these ideas together!
 {% assign pubCounter = 0 %}
 
 {% for publication in publications   %}
-  {% if page.visibility == 'All' and publication.visibility !=  'All' or  publication.visibility == 'Lab'  %}    
+
+  {% if page.visibility == 'All' and publication.visibility == 'Project' or  publication.visibility == 'Lab'  %}    
       {% continue %}
   {% endif %}
 
-    {% if page.visibility == 'Lab' and publication.visibility == 'Project' %}    
-        {% continue %}
-    {% endif %}
+  {% if page.visibility == 'Lab' and publication.visibility == 'Project' %}    
+      {% continue %}
+  {% endif %}
 
-     {% if publication.type != 'Journal Article' %}    
-        {% continue %}
-    {% endif %}
+  {% if publication.type != 'Journal Article' %}    
+      {% continue %}
+  {% endif %}
 
 <li>{{publication.citation}}        
 
