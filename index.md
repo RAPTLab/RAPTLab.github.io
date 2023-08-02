@@ -15,12 +15,8 @@ We are broadly interested in how people learn in complex, real-world circumstanc
 
 
 Most of our projects combine these ideas together! 
-<!-- 
-<br>
-<img src="assets/img/rapt_network.png" alt="Pic of the RAPT elements connected to eaach other" width="450">
--->
 
-## Recent publications
+## Recent publications from lab members
 
   <ul class="pubs">
 
@@ -28,12 +24,15 @@ Most of our projects combine these ideas together!
 {% assign pubCounter = 0 %}
 
 {% for publication in publications   %}
-
-  {% if page.visibility == 'All' and publication.visibility == 'Project' or  publication.visibility == 'Lab'  %}    
+  {% if page.visibility == 'All' and publication.visibility !=  'All' or  publication.visibility == 'Lab'  %}    
       {% continue %}
   {% endif %}
 
     {% if page.visibility == 'Lab' and publication.visibility == 'Project' %}    
+        {% continue %}
+    {% endif %}
+
+     {% if publication.type != 'Journal Article' %}    
         {% continue %}
     {% endif %}
 
