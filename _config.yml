@@ -1,3 +1,6 @@
 title: "RAPT Lab: Representations, Activity, Play, and Technology Lab"
 theme: jekyll-theme-minimal
 logo: /assets/img/rapt_transparent_purple.png
+url: "http://theraptlab.org" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
