@@ -20,10 +20,19 @@
   interests: social and emotional engagaement, embodied learning, playful inquiry
   pronouns: She/Her
 
+- last: Desai
+  first: Aman
+  role: Graduate Researcher
+  status: Current Lab Member
+  affiliation: Indiana University Bloomington
+  interests: science education, collaboration, inquiry-based learning
+  pic: /assets/img/people/adesai.jpg
+  pronouns: He/Him
+
 - last: Tu
   first: Xintian
   role: Graduate Researcher
-  status: Current Lab Member
+  status: Lab Alumni
   affiliation: Indiana University Bloomington
   pic: /assets/img/people/Xintian.jpg
   interests: play, embodied learning, extended reality environments
@@ -99,7 +108,7 @@
 - last: Mathayas
   first: Nitasha
   role: Postdoctoral Researcher
-  status: Current Lab Member
+  status: Lab Alumni
   affiliation: Indiana University Bloomington
   pronouns: She/Her
   
