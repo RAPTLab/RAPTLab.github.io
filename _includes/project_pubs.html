@@ -9,7 +9,7 @@
 
 {% assign itemsForProject = citation.items | where: "project", thisProject %}
 {% assign itemsForSecondaryProject = citation.items | where: "secondaryProject", thisProject %}
-{% assign itemsCombined = itemsForProject | concat: itemsForSecondaryProject %}
+{% assign itemsCombined = itemsForProject | concat: itemsForSecondaryProject | uniq %}
 {% assign itemsSorted = itemsCombined | sort: "citation" %}
 
 {% if itemsSorted.size > 0 %}
