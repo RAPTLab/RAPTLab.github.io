@@ -5,7 +5,7 @@
   role: Lab Director, Professor
   status: Current Lab Member
   url: https://www.joshuadanish.com
-  affiliation: University of Illinois
+  affiliation: University of Illinois at Urbana Champaign
   interests: embodied learning, science education, representations, eelementary education, activity, play, technology in learning / CSCL
   pic: /assets/img/people/jdanish.jpg
   pronouns: He/Him
@@ -24,13 +24,12 @@
   first: Aman
   role: Graduate Researcher
   status: Current Lab Member
-  affiliation: Indiana University Bloomington
+  affiliation: University of Illinois at Urbana Champaign
   interests: science education, collaboration, inquiry-based learning
   pic: /assets/img/people/adesai.jpg
   pronouns: He/Him
   url: https://www.linkedin.com/in/amandesai251/
-
-
+  
 - last: Tu
   first: Xintian
   role: Graduate Researcher
@@ -53,7 +52,7 @@
 
 - last: Vickery
   first: Morgan
-  role: Graduate Researcher
+  role: Postdoctoral Researcher
   url: http://morganavickery.com
   status: Current Lab Member
   affiliation: Indiana University Bloomington
@@ -81,12 +80,19 @@
   role: Graduate Researcher
   status: Current Lab Member
   affiliation: Indiana University Bloomington
-  interests: play & learning, participatory design, nature-based education, perspective-taking, embodied cognition
-  pic: /assets/img/people/zryan.jpg
   pronouns: He/Him
   url: https://www.zach-ryan.com/ 
 
-  
+- last: Desai
+  first: Aman
+  role: Graduate Researcher
+  status: Current Lab Member
+  affiliation: Indiana University Bloomington
+  interests: science education, collaboration, inquiry-based learning
+  pic: /assets/img/people/adesai.jpg
+  pronouns: He/Him
+  url: https://www.linkedin.com/in/amandesai251/
+
 - last: Steinberg
   first: Selena
   role: Graduate Researcher
@@ -167,7 +173,7 @@
   status: Lab Alumni
   affiliation: Indiana University Bloomington
   pic: /assets/img/people/Nayah.png
-  interests: technology education, computational thinking, cognitive sciences, third-order cybernetics
+  interests: technology education, computational thinking, cognitive sciences, third-order cybernetics 
 
 - last: Lau (NGL) 
   first: Naomi G.
